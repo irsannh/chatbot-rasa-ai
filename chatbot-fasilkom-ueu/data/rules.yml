@@ -1,0 +1,161 @@
+version: "3.1"
+
+rules:
+
+- rule: Mengucapkan salam ketika user mengucapkan salam
+  steps:
+  - intent: salam
+  - action: utter_salam
+
+- rule: Mengucapkan terima kasih ketika user mengucapkan terima kasih
+  steps:
+  - intent: terima_kasih
+  - action: utter_terima_kasih
+
+- rule: Memberikan penjelasan mengenai pertanyaan apa saja yang dijawab oleh chatbot ini.
+  steps:
+  - intent: list_pertanyaan
+  - action: utter_list_pertanyaan
+
+- rule: Memberikan tautan untuk melihat Kalender Akademik
+  steps:
+  - intent: kalender_akademik
+  - action: utter_kalender_akademik
+
+- rule: Mengirimkan Kontak Kaprodi Teknik Informatika
+  steps:
+  - intent: kontak_kaprodi_if
+    entities:
+      - head_of_if: "Kaprodi IF"
+  - action: utter_kontak_kaprodi_if
+
+- rule: Mengirimkan Kontak Kaprodi Sistem Informasi
+  steps:
+  - intent: kontak_kaprodi_si
+    entities:
+      - head_of_is: "Kaprodi SI"
+  - action: utter_kontak_kaprodi_si
+
+- rule: Menanyakan Jadwal Ujian Tengah Semester
+  steps:
+  - intent: jadwal_uts
+    entities:
+      - mid_exam: "UTS"
+  - action: utter_jadwal_uts
+
+- rule: Menanyakan Jadwal Ujian Akhir Semester
+  steps:
+  - intent: jadwal_uas
+    entities:
+      - final_exam: "UAS"
+  - action: utter_jadwal_uas
+
+- rule: Memberikan penjelasan cara mengurus administrasi
+  steps:
+  - intent: pengurusan_surat
+    entities:
+      - administration: "Surat"
+  - action: utter_pengurusan_surat
+
+- rule: Memberikan penjelasan syarat terkait tugas akhir
+  steps:
+    - intent: syarat_tugas_akhir
+      entities:
+        - thesis_requirement: "syarat skripsi"
+    - action: utter_syarat_tugas_akhir
+
+- rule: Memberikan penjelasan tata cara pengajuan judul tugas akhir
+  steps:
+    - intent: pengajuan_judul_tugas_akhir
+      entities:
+        - title_submission: "Usul Judul"
+    - action: utter_pengajuan_judul_tugas_akhir
+
+- rule: Memberikan penjelasan terkait proses penyetujuan judul tugas akhir
+  steps:
+    - intent: proses_pengajuan_tugas_akhir
+      entities:
+        - submission_process: "Pengajuan TA"
+    - action: utter_proses_pengajuan_tugas_akhir
+
+- rule: Memberikan penjelasan syarat terkait sidang tugas akhir
+  steps:
+    - intent: syarat_sidang
+      entities:
+        - presentation_requirement: "Syarat Sidang"
+    - action: utter_syarat_sidang
+
+- rule: Memberikan Link Pendaftaran Sidang Tugas Akhir
+  steps:
+    - intent: daftar_sidang
+      entities:
+        - registration: "daftar sidang"
+    - action: utter_daftar_sidang
+
+- rule: Memberikan Penjelasan Terkait Penjadwalan Sidang Tugas Akhir
+  steps:
+    - intent: jadwal_sidang
+      entities:
+        - schedule: "Jadwal"
+    - action: utter_jadwal_sidang
+
+- rule: Memberikan penjelasan terkait tata cara validasi sertifikat
+  steps:
+    - intent: validasi_sertifikat
+      entities:
+        - validation: "validasi"
+    - action: utter_validasi_sertifikat
+
+- rule: Memberikan penjelasan terkait cara mengikuti sertifikasi BNSP
+  steps:
+    - intent: sertifikasi
+      entities:
+        - certification: "sertifikasi"
+    - action: utter_sertifikasi
+
+- rule: Memberikan link untuk presensi menonton sidang sempro
+  steps:
+    - intent: nonton_sidang
+      entities:
+        - watch: "Nonton"
+    - action: utter_nonton_sidang
+
+- rule: Memberikan link grup Telegram Mahasiswa Semester Akhir (Sempro/TA/Magang)
+  steps:
+    - intent: grup_telegram
+      entities:
+      - telegram_group: "link"
+    - action: utter_grup_telegram
+
+- rule: Memberikan Penjelasan Mengenai Apa itu Program MBKM
+  steps:
+    - intent: kampus_merdeka
+      entities:
+        - mbkm_info: "Kampus Merdeka"
+    - action: utter_kampus_merdeka
+
+- rule: Memberikan Penjelasan Mengenai Program-Program Pada MBKM
+  steps:
+    - intent: program_kampus_merdeka
+      entities:
+        - mbkm_variant: "Jenis MBKM"
+    - action: utter_program_kampus_merdeka
+
+- rule: Memberikan Penjelasan Mengenai Syarat Kampus Merdeka
+  steps:
+    - intent: syarat_kampus_merdeka
+      entities:
+        - mbkm_requirements: "Syarat MBKM"
+    - action: utter_syarat_kampus_merdeka
+
+- rule: Memberikan Petunjuk Cara Mendaftar Kegiatan MBKM
+  steps:
+    - intent: pendaftaran_kampus_merdeka
+      entities:
+        - mbkm_registration: "Daftar MBKM"
+    - action: utter_pendaftaran_kampus_merdeka
+
+- rule: Fallback NLU
+  steps:
+    - intent: nlu_fallback
+    - action: utter_ulangi_input

@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-calendar",
+      "2": "I-calendar",
+      "3": "L-calendar",
+      "4": "U-calendar",
+      "5": "B-final_exam",
+      "6": "I-final_exam",
+      "7": "L-final_exam",
+      "8": "U-final_exam",
+      "9": "B-head_of_if",
+      "10": "I-head_of_if",
+      "11": "L-head_of_if",
+      "12": "U-head_of_if",
+      "13": "B-head_of_is",
+      "14": "I-head_of_is",
+      "15": "L-head_of_is",
+      "16": "U-head_of_is",
+      "17": "B-mid_exam",
+      "18": "I-mid_exam",
+      "19": "L-mid_exam",
+      "20": "U-mid_exam",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-calendar": 1,
+      "I-calendar": 2,
+      "L-calendar": 3,
+      "U-calendar": 4,
+      "B-final_exam": 5,
+      "I-final_exam": 6,
+      "L-final_exam": 7,
+      "U-final_exam": 8,
+      "B-head_of_if": 9,
+      "I-head_of_if": 10,
+      "L-head_of_if": 11,
+      "U-head_of_if": 12,
+      "B-head_of_is": 13,
+      "I-head_of_is": 14,
+      "L-head_of_is": 15,
+      "U-head_of_is": 16,
+      "B-mid_exam": 17,
+      "I-mid_exam": 18,
+      "L-mid_exam": 19,
+      "U-mid_exam": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

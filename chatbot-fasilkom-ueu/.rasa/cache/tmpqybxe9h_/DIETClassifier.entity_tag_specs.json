@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-calendar",
+      "2": "I-calendar",
+      "3": "L-calendar",
+      "4": "U-calendar",
+      "5": "B-head_of_if",
+      "6": "I-head_of_if",
+      "7": "L-head_of_if",
+      "8": "U-head_of_if",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-calendar": 1,
+      "I-calendar": 2,
+      "L-calendar": 3,
+      "U-calendar": 4,
+      "B-head_of_if": 5,
+      "I-head_of_if": 6,
+      "L-head_of_if": 7,
+      "U-head_of_if": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

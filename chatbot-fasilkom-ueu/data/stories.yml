@@ -1,0 +1,96 @@
+version: "3.1"
+
+stories:
+
+- story: Mengucapkan salam ketika user mengucapkan salam
+  steps:
+  - intent: salam
+  - action: utter_salam
+
+- story: Menanyakan persoalan terkait tanggal/kalender akademik
+  steps:
+    - intent: salam
+    - action: utter_salam
+    - intent: kalender_akademik
+    - action: utter_kalender_akademik
+    - intent: jadwal_uts
+      entities:
+        - mid_exam: "UTS"
+    - action: utter_jadwal_uts
+    - intent: jadwal_uas
+      entities:
+        - final_exam: "UAS"
+    - action: utter_jadwal_uas
+
+- story: Memberikan penjelasan syarat terkait tugas akhir
+  steps:
+    - intent: salam
+    - action: utter_salam
+    - intent: syarat_tugas_akhir
+      entities:
+        - thesis_requirement: "syarat skripsi"
+    - action: utter_syarat_tugas_akhir
+    - intent: pengajuan_judul_tugas_akhir
+      entities:
+        - title_submission: "Usul Judul"
+    - action: utter_pengajuan_judul_tugas_akhir
+    - intent: proses_pengajuan_tugas_akhir
+      entities:
+        - submission_process: "Pengajuan TA"
+    - action: utter_proses_pengajuan_tugas_akhir
+
+- story: Menjawab Pertanyaan Terkait Proses Persyaratan Sidang Tugas Akhir
+  steps:
+    - intent: salam
+    - action: utter_salam
+    - intent: syarat_sidang
+      entities:
+        - presentation_requirement: "Syarat Sidang"
+    - action: utter_syarat_sidang
+    - intent: validasi_sertifikat
+      entities:
+        - validation: "validasi"
+    - action: utter_validasi_sertifikat
+    - intent: sertifikasi
+      entities:
+        - certification: "sertifikasi"
+    - action: utter_sertifikasi
+    - intent: nonton_sidang
+      entities:
+        - watch: "Nonton"
+    - action: utter_nonton_sidang
+
+- story: Proses Pendaftaran dan Penjadwalan Tugas Akhir
+  steps:
+    - intent: salam
+    - action: utter_salam
+    - intent: daftar_sidang
+      entities:
+        - registration: "daftar sidang"
+    - action: utter_daftar_sidang
+    - intent: jadwal_sidang
+      entities:
+        - schedule: "Jadwal"
+    - action: utter_jadwal_sidang
+
+- story: Pertanyaan-Pertanyaan Soal Program Merdeka Belajar Kampus Merdeka (MBKM)
+  steps:
+    - intent: salam
+    - action: utter_salam
+    - intent: kampus_merdeka
+      entities:
+        - mbkm_info: "Kampus Merdeka"
+    - action: utter_kampus_merdeka
+    - intent: program_kampus_merdeka
+      entities:
+        - mbkm_variant: "Jenis MBKM"
+    - action: utter_program_kampus_merdeka
+    - intent: syarat_kampus_merdeka
+      entities:
+        - mbkm_requirements: "Syarat MBKM"
+    - action: utter_syarat_kampus_merdeka
+    - intent: pendaftaran_kampus_merdeka
+      entities:
+        - mbkm_registration: "Daftar MBKM"
+    - action: utter_pendaftaran_kampus_merdeka
+

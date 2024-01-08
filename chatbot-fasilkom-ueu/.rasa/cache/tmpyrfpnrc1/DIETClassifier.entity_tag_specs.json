@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-calendar",
+      "2": "I-calendar",
+      "3": "L-calendar",
+      "4": "U-calendar",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-calendar": 1,
+      "I-calendar": 2,
+      "L-calendar": 3,
+      "U-calendar": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

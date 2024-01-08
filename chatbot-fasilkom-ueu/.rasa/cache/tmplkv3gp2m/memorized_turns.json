@@ -1,0 +1,29 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbe2NhYA6b8bfA==": "utter_salam",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbeWgBmlJSWpRfEQpbhMiAUAP380fA==": "action_listen",
+    "eJydjlEKg0AMRK+SA3iCvYpICCVoqLutSbZQlr27AaV/RfAvwzzeZGx9gPZW/iA9XF4lQTsOLJQ5wRlWMecSbDXWYKRE9ARGK+V+4ajurHig9wx/vgiBuLAlGH1hE0PlrYpyjmYa4LfxJSVHrzMZ0nMR7X3aAfv/YCE=": "utter_syarat_tugas_akhir",
+    "eJytjlEKwkAMRK+SA/QEe5VSQpBgg92tJllBlt69gZb+FFHEvwyZeTN9Wzpod+Un0sVlLgnadmChzAl2MYk5l/BWYw2PlJCewGiivHxgVHdW3Ky/Ed6sCIC4sCXofWQTQ+VHFeUcn6GDo+NFSo5er2RIt1H0y8nn3F+6hxU61ZBy": "action_listen",
+    "eJy9j10KwkAMhK+yB+gJ9iqlhKihTd1da34EKb27CxVRRCw++JYhX2Ym7bw0YZ6ELoB741OJYV4HKJgphrtIrEalsq4kleFSpcWgmDAvXzzcjARW9DeHDy2qARuTxtDaQMoKQmdnoVw3XRMeGVcUNDDvUQGPA8vGyu93f8je8CxbIlDfZVat7FPcRKXH0bHA6AdPr7ndDb2Ovuw=": "utter_pengajuan_judul_tugas_akhir",
+    "eJy9j20KwjAMhq/SA+wEvcoYIWrYMts6m0SQsrtbmIgg6hTxX0KevB9tmRtXpkwnwK3yIXlXlgESRvLuugQWpVRZE8qV4VRX9U4wYJzfaJgqZVjQ7xSepKgCrEziXasDCQtkOhpnivXSNe7mccaMCmo9CuB+4Lwy8uPfH7xXlGUNBGKbyCKVvbObKPU4GiYYbWfh886vBH6ZpbsAG3/1ug==": "action_listen",
+    "eJy9kFEOgkAMRK+yB+AEXIWQpmIDRXbBtmtiCHd3E4xijIJ+8Nems/NmthinzI2D0AWwMu5D7sZ5gICecndfOlajkLRRSZKGQ1otd4od+mnFI5qRwCz9z+FDimTAxqS5K6whZQWhc2Qhny5l5h6MKwoaWKxRAU8Ny8bI7+92YG8oy9YRaDx4Vk3aBW6gUGMbMUAbj7H7vfM3g/2yrP/BkwiD9BWpLsnSK+miywu6vAGP1CWY": "utter_proses_pengajuan_tugas_akhir",
+    "eJy9kGsKg0AMhK+yB/AEXkUkpDZorK42yRaKePcuWFqh1Ecp/tuwk/lmkg1j4oZe6AZYGHc+dcP0AI8tpe45NKxGPmqDkkQN+zha6hQbbMcVj2BGApP0N4cvKaIBG5OmLrOKlBWEroGF2viTJ+7FuKOggYUSFfBSsWyM/Ll3AHtDWbaGQMOpZdWoneF68iXWAT3U4Rya/Z2XDI7Lsn6DNxF66QpSnZOlU9JZl/1nWHL4c578AZLjXjM=": "action_listen",
+    "eJydjkEKw0AIRa/iAXKCuUoIg6QShIxJ1QmUYe5eaUJ3pZCdT57fP7Y+QNuVjoyz8yYJ2jlkwUIJLljZnCTcaqThsAR6AsMVS/+TUd1J86neS/jRIgLYmSzBGMcWiB9P6VlZqcRiGuD76YWKno0fKEvv0xtjuWCR": "utter_syarat_sidang",
+    "eJytjlsKwkAMRbeSBXQFs5VShlCDBDrRJpmCDN27wUrBj6JI/3LDuY++rR20u9KScXS+SYK2HVmwUIK3mNicJNhqpMGwhPQEhhOW9UtGdSfNG/pfwsGKCGBnsgR9mC0kvjilubJSicfQwd70QEXPxheU64+bPyzn9A5PklqPNg==": "action_listen",
+    "eJy9j1EKAjEMRK+SA+wJepVlKUGjBLdVk3RBSu9utCL6ISt++JcJLzOTsbYB6kloibgxPuYAtQ8xY6IADzGzGmVni5I4w9mlBVCcMbUVj2JGEjv6m8OHFm7AxqQBRj9Wl3jnhM6FhZIvpgGeSRcUtKi8xbz/svPbyT9y1z9dcHanG/WS0ZfK0XHjHR/QWpuuPMe3ww==": "utter_validasi_sertifikat",
+    "eJy9j2EKwjAMha+SA+wEvcoYJWiUYFu1SQdSdnfjKqKgbCj4Ly98772kr1MH9ZRp9LhRPiYHtQ0+YSQHdxFYlJKxRSgbw8mkOhAMGKeFjKJK2Tf0u4QPV1gAK5M46M0sJnHmMp0LZ4q2GDp4NF0wo3rhLab9yptfLP/oXf50xGBJN+qpoy2FveHKOz6grvvwnfG31uEKdiTlWQ==": "action_listen",
+    "eJy9j2EKwjAMha+SA+wEvcoYJcwowa1qkw5k9O5GK0NF6RD0X154731JO+cG5mOkyWOvfAgO5jL4gCM5uIuBRSmYNwlF83AwqQ4EBxxzpSOpUvTF+l3DhyusgJVJHLQWFpN480U6JY402qJrYCGdMaJ64Q2G3cqbnyL/4NY/nXCwpqvrgVGWwt7sylveo6778F3wl9T6f33p6l9hC0M45+4CjucL6g==": "utter_sertifikasi",
+    "eJy9kWEKwjAMha/SA+wEvcoYJdQowa1qkw6k7O5GK2OKsjLQf0147315tM1TY/I54ujAC52CNbk8XIABrXkOPbFgUG1ijKqhoKNYw9DDMK1kJBGMrki3JXy5QgNICNmaVs2sIzx0ES+JIg666Bozk64QQRzTDsKh8uYXyz+4601H6DXprlowypLJqVxoT0eQuoafjL+krvfzJcu/w2YGU+XnLQybQd0NuLM0MQ==": "action_listen",
+    "eJydjkEKgDAMBL+SB/iCfkWkBBsloFHS6KX070bUowjesuwwm7bUBsqqtEfsjRcJUK4jCs4U4A4TZyNxdsukzrB4tAAZJ5zrh2MzI40X+s/w8oUL2JhygFZp9FLx5LoGHnvCwdC3OaGMtXYH6bJbXg==": "utter_daftar_sidang",
+    "eJydjkEKgEAIRa/iATrBXCVikLIQysKxNkN3z6gWLaJo58fn85d5LSBPSkvE2niUAPkYouBAAc7QczISZ+dE6gyLRwuQsMdhfXHMZqTxQP8ZHlq4gI0pBSiVOl8q7lxVwGVvsDX039ygdN963k/+/6o2Mz+Erg==": "action_listen",
+    "eJy1j1EKwkAMRK+SA/QEe5VSltCNNbJdJcnqx9K7G6mKfkhF8C9DJm8mfVs6aCehc8TR+FgCtHWIBWcKcBeZ1ai4tyqJe7i4tACKGedlg1HNSOJq/Y3woYUD2Jg0QC80+VLw5hs6eNAT7gw9mxOW6bue7yf/ytr+SMc9pZrpJeGA6YL5mTBcAR9XqcM=": "utter_jadwal_sidang",
+    "eJy1T10KwjAMvkoOsBP0KmOUsMYZ6aqkqT6U3d3IFLaHMR34lo98v22dGqg3obvHXvmaHNT58AlHcvAGkbNSMm7JJMbhZFAdZIw4TjseRZXEz9RjDhstzICVKTtohQZ7Cr54XQMf94AnRcvmgGn4ruda8q+s/UW5P1MokRYJFwwPjD+tWUuO5XRPK7zRRw==": "action_listen",
+    "eJydjkEKwCAMBL/iA/oCv1KKhJpDUNOisRfJ3xuwd6G3XRhmdx+6uXFXfAKcQhd7N2YIDAW9+0qmJsjG9obVGGKr4l2DDEUXji6CNUz0n2HxIkFGjrYBCSIWSqrHC2yAUxU=": "utter_kalender_akademik",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbeWgBmlJSWpRfEQpeSZQMAV2Yk5qXkpQDsSsxNTUnMzs4lzEaY2YkyOBQC5gHWx": "action_listen",
+    "eJyljksKwzAMRK+iA+QEvkoIQtRaqP402HJbML57BWlWpaSkOw2M3ry5jwn6WviOdFG5ZQd9OzBTYgfvEKUqZ+u2ysU6ki2qg0qR0jhgNFUuuFXPEQ4sAkXO3jYokOck4Tejz7f/yV9MDSYqXB3MSTzyk9Iywb5yJf+giE3rGMsLGQyZow==": "utter_jadwal_uts",
+    "eJyljtEJwzAMRFfRAJnAq4QgRKwP1bZSbLktmOxeQ1oolJKQ/ung6e6NbR2gXTPfkGaTRR207UClxA5eIUox1s7Wwrkzoj2ag0KR0rrTUc0444aea9ixCBRZfd+gQJ6ThGNG32//N/8w7WViwsXBmMQjPyhNA7xXLuTvFLFaOSb+wZ9YmJ4X2L7q": "action_listen",
+    "eJytj2EKwjAMRq+SA+wEvcoYJdgIcW2UNlWh7O4GpiDI6FD/JfDlvS9jWwZol0xXjwflszho6+AFEzl4LpGLkli2FsqWYbFVHRSMmJYOo6pS9mv0O0KnxYyRJJgDZwyUeN7X6PPsd/JGU4OxMhUHY+Lg6Y5pGuBlOWG4YfRVy77ib/m/G/oPHFkMtSFAE0wPbPnjmQ==": "utter_jadwal_uas",
+    "eJytj20KAjEMRK+SA+wJepVlKcFGiG2jtKkKZe9uYRUEXbp+/Gtg+t7MWOcB6inR2eJO+SgG6vKwgpEM3I/AWUlatmRKLcPSTjWQMWCcO4yiSsku0e8InRYeA4lrDvToKLLf1uj12+/klaYNxsqUDYyRnaUrxmmAh+WA7oLBFs3bij/l/27oD9izNNSKAD+cgO8ndB3TDc1KCZk=": "action_listen"
+  }
+}

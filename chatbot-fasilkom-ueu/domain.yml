@@ -1,0 +1,137 @@
+version: "3.1"
+
+intents:
+  - salam
+  - terima_kasih
+  - list_pertanyaan
+  - kalender_akademik
+  - kontak_kaprodi_if
+  - kontak_kaprodi_si
+  - jadwal_uts
+  - jadwal_uas
+  - pengurusan_surat
+  - syarat_tugas_akhir
+  - pengajuan_judul_tugas_akhir
+  - proses_pengajuan_tugas_akhir
+  - syarat_sidang
+  - jadwal_sidang
+  - daftar_sidang
+  - validasi_sertifikat
+  - sertifikasi
+  - nonton_sidang
+  - grup_telegram
+  - kampus_merdeka
+  - program_kampus_merdeka
+  - syarat_kampus_merdeka
+  - pendaftaran_kampus_merdeka
+
+entities:
+  - calendar
+  - head_of_if
+  - head_of_is
+  - mid_exam
+  - final_exam
+  - administration
+  - thesis_requirement
+  - title_submission
+  - submission_process
+  - presentation_requirement
+  - schedule
+  - registration
+  - validation
+  - certification
+  - watch
+  - telegram_group
+  - mbkm_info
+  - mbkm_variant
+  - mbkm_requirements
+  - mbkm_registration
+
+responses:
+  utter_salam:
+  - text: "Halo, dengan Chatbot Layanan Akademik Fakultas Ilmu Komputer Universitas Esa Unggul. Ada yang bisa kami bantu?"
+
+  utter_terima_kasih:
+  - text: "Sama-sama! Senang dapat membantu anda."
+
+  utter_list_pertanyaan:
+  - text: "Saat ini kami dapat melayani pertanyaan mengenai:\n1. Proses Pembelajaran (Kalender Akademik, Jadwal Kuliah, UTS, dan UAS)\n2. Proses Administrasi (pengurusan surat)\n3. Kontak Kaprodi\n4. Proses Administrasi Terkait Tugas Akhir\n5. Pertanyaan MBKM"
+
+  utter_kalender_akademik:
+  - text: "Kalender Akademik Universitas Esa Unggul Tahun Akademik 2023/2024 dapat diakses melalui tautan: https://www.esaunggul.ac.id/kalender-akademik-tahun-akademik-2023-2024/"
+
+  utter_kontak_kaprodi_if:
+  - text: "Anda dapat menghubungi Kaprodi Teknik Informatika Bapak M. Bahrul Ulum S.Kom., M.Kom. melalui tautan berikut: wa(dot)me/628***"
+
+  utter_kontak_kaprodi_si:
+  - text: "Anda dapat menghubungi Kaprodi Sistem Informasi, Ibu Anik Hanifatul Azizah, S.Kom., M.IM. melalui tautan berikut: wa(dot)me/62***"
+
+  utter_jadwal_uts:
+  - text: "Ujian Tengah Semester Ganjil Tahun Akademik 2023-2024 berlangsung pada 6-18 November 2023"
+
+  utter_jadwal_uas:
+  - text: "Ujian Akhir Semester Ganjil Tahun Akademik 2023-204 berlangsung pada 16-29 Januari 2024"
+
+  utter_pengurusan_surat:
+  - text: "Untuk mengurus surat administrasi keperluan akademik (Penelitian TA dan MBKM), anda dapat melakukannya
+            secara offline (luring) maupun online (daring). Untuk pengurusan secara offline, anda dapat menuju Ruang
+            Fakultas di Lt. 5 Ruang 501 Gedung C Universitas Esa Unggul Kebon Jeruk, sedangkan untuk daring, anda dapat
+            mengisi formulir melalui tautan berikut ini: <link admin surat>"
+
+  utter_syarat_tugas_akhir:
+  - text: "Untuk dapat mengambil mata kuliah dan mengajukan judul pada Tugas Akhir, anda harus memenuhi beberapa persyaratan,
+            yaitu:\n1. Telah lulus minimal 110 SKS\n2. Telah lulus mata kuliah Metodologi Penelitian sekurang-kurangnya dengan nilai C\n3. Telah mengikuti kegiatan MBKM atau telah melaksanakan magang"
+
+  utter_pengajuan_judul_tugas_akhir:
+  - text: "Untuk mengajukan judul pada tugas akhir, anda dapat mengunjungi https://siakad.esaunggul.ac.id, login dengan akun anda, 
+            lalu menuju menu SIM Akademik > Perkuliahan (Adm). > Kegiatan Akademik > Skripsi/Tesis > Pengajuan Skripsi/Tesis. 
+            Lalu tekan tombol + untuk mengisi data-data pengajuan tugas akhir anda. Jika sudah, anda akan menekan tombol simpan."
+
+  utter_proses_pengajuan_tugas_akhir:
+  - text: "Jika anda sudah mengajukan judul untuk tugas akhir, anda dapat mengecek prosesnya pada menu Data Skripsi/Tesis di siakad anda. Jika sudah disetujui, anda akan mendapatkan dosen pembimbing untuk 
+            tugas akhir anda, dan silakan menghubungi dosen pembimbingnya untuk langkah selanjutnya. Jika tidak disetujui, silakan anda mengajukan judul lain."
+
+  utter_syarat_sidang:
+  - text: "Untuk dapat mendaftar pada sidang Seminar Proposal, anda harus telah mendapatkan persetujuan dari dosen pembimbing anda, 
+              \nadapun untuk Tugas Akhir, anda harus memenuhi persyaratan tambahan berikut:\n1. Telah melakukan validasi sertifikat untuk SKPI, sekurang-kurangnya 9 sertifikat\n2. Telah melakukan sertifikasi BNSP
+              \n3. Telah mengikuti sidang Seminar Proposal Mahasiswa lain sekurang-kurangnya lima (5) kali"
+
+  utter_jadwal_sidang:
+  - text: "Jika anda sudah mendaftar untuk sidang Seminar Proposal/TA/MBKM, silakan pantau jadwal sidang tersebut melalui Grup Telegram Mahasiswa Seminar Proposal/Magang/TA Fasilkom Universitas Esa Unggul."
+
+  utter_daftar_sidang:
+  - text: "Jika anda telah mendapat persetujuan dari dosen pembimbing anda, anda dapat melakukan pendaftaran sidang (Seminar Proposal/Tugas Akhir) melalui tautan <link daftar sidang>"
+
+  utter_validasi_sertifikat:
+  - text: "Untuk melakukan validasi sertifikat sebagai salah satu syarat untuk mendaftar sidang tugas akhir, anda dapat mengunjungi Ruang 501 Gedung E Universitas Esa Unggul, Kebon Jeruk"
+
+  utter_sertifikasi:
+  - text: "Untuk melakukan pendaftaran sertifikasi BNSP, anda dapat mengunjungi Ruang 502 Gedung E Universitas Esa Unggul Kebon Jeruk. Untuk info selengkapnya, anda dapat menghubungi wa.me/62"
+
+  utter_nonton_sidang:
+  - text: "Anda dapat menonton sidang melalui sidang melalui link/tautan yang diberikan bersamaan dengan jadwal sidang mahasiswa pada Grup Telegram Mahasiswa Seminar Proposal/Magang/TA Fasilkom Universitas Esa Unggul.\nJika
+              sudah, anda dapat melakukan absensi melalui <link nonton sidang>"
+
+  utter_grup_telegram:
+  - text: "Anda dapat masuk ke grup telegram Mahasiswa Seminar Proposal/TA/Magang Fasilkom Univ. Esa Unggul melalui tautan berikut ini: <link grup telegram>"
+
+  utter_kampus_merdeka:
+  - text: "Kampus Merdeka adalah kebijakan yang dikeluarkan oleh Kemendikbudristek dengan memberikan hak kepada Mahasiswa untuk mengambil mata kuliah di luar program studi selama 1 semester dan berkegiatan di luar perguruan tinggi selama 2 semester. 
+            Perguruan tinggi diberikan kebebasan untuk menyediakan kegiatan Kampus Merdeka yang sesuai dengan kebutuhan dan minat mahasiswanya."
+
+  utter_program_kampus_merdeka:
+  - text: "Ada beberapa program MBKM, baik itu dilaksanakan oleh Kemendikbud ataupun secara Mandiri oleh Universitas dan Mitranya masing-masing.
+            \nAdapun Program-program tersebut adalah sebagai berikut: \n1. Kampus Mengajar\n2. Magang\n3. Studi Independen\n4. Pertukaran Mahasiswa"
+
+  utter_syarat_kampus_merdeka:
+  - text: "Untuk mengikuti Kegiatan MBKM, mahasiswa diwajibkan minimal berada pada semester ke-5 (lima)"
+
+  utter_pendaftaran_kampus_merdeka:
+  - text: "Untuk mengikuti kegiatan MBKM dari Kemendikbud, anda dapat mengunjungi https://kampusmerdeka.kemdikbud.go.id adapun untuk kegiatan MBKM secara mandiri, silakan berkoordinasi dengan PT/Mitra Tujuan melalui Kaprodi masing-masing."
+
+  utter_ulangi_input:
+  - text: "Mohon maaf, chatbot tidak mengerti pesan anda. Silakan ulangi pesan anda."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

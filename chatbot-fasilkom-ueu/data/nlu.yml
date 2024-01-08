@@ -1,0 +1,221 @@
+version: "3.1"
+
+nlu:
+- intent: salam
+  examples: |
+    - /start
+    - Assalamualaikum
+    - Assalamualaikum wr wb
+    - Assalamualaikum Wr. Wb.
+    - Assalamualaikum warahmatullahi wabarakatuh
+    - Assalamualaikum warohmatullahi wabarokatuh
+    - Halo
+    - hai
+    - Selamat pagi
+    - Selamat siang
+    - Selamat sore
+    - Selamat malam
+    - Pagi
+    - Siang
+    - Sore
+    - Malam
+    - Good morning
+    - Good afternoon
+    - Good evening
+    - Good night
+    - Morning
+
+- intent: terima_kasih
+  examples: |
+    - Terima kasih ya
+    - terima kasih
+    - Makasih
+    - Baik, terima kasih ya
+    - Thank you
+    - Thank u
+    - Thanks
+
+- intent: list_pertanyaan
+  examples: |
+    - apa saja pertanyaan yang bisa dilayani oleh chatbot ini?
+    - daftar pertanyaan
+    - minta list pertanyaan dong
+    - Pertanyaan
+    - Apa saja pelayanan yang diberikan oleh chatbot ini?
+    - Apa saja yang bisa dilayani oleh chatbot ini?
+
+- intent: kalender_akademik
+  examples: |
+    - [kalender akademik](calendar)
+    - Minta [kalender akademik](calendar) Esa Unggul dong
+    - Di mana saya bisa mendapatkan [kalender akademik](calendar)
+    - Tahun Ajaran ini kapan aja [tanggal liburnya](calendar)?
+
+- intent: kontak_kaprodi_if
+  examples: |
+    - Minta kontak [Kaprodi TI](head_of_if) dong?
+    - Apakah ada [Kaprodi IF](head_of_if)?
+    - Kontak [kaprodi Informatika](head_of_if)
+    - Kontak [Kaprodi Teknik Informatika](head_of_if)
+    - Bagaimana cara menghubungi [Pak Bahrul](head_of_if)?
+    - WA [Pak Bahrul](head_of_if)
+    - Saya mau minta whatsapp [Pak Bahrul](head_of_if)
+
+- intent: kontak_kaprodi_si
+  examples: |
+    - Minta kontak [Kaprodi SI](head_of_is) dong?
+    - Apakah ada kontak [kaprodi SI](head_of_is)?
+    - Kontak [kaprodi Sistem Informasi](head_of_is)
+    - Bagaimana cara menghubungi [Bu Izza](head_of_is)?
+    - WA [Bu Izza](head_of_is)
+    - Saya mau minta whatsapp [Ibu Izza](head_of_is)
+
+- intent: jadwal_uts
+  examples: |
+    - [Jadwal UTS](mid_exam)
+    - [UTS](mid_exam)
+    - Kapan [UTS](mid_exam)?
+    - [UTS](mid_exam) semester ini jadwalnya kapan ya?
+    - Jadwal [UTS](mid_exam) dari tanggal berapa ya?
+    - [UTS](mid_exam) jadwalnya sampai kapan ya?
+
+- intent: jadwal_uas
+  examples: |
+    - Kapan [UAS](final_exam) ya?
+    - Minta jadwal [UAS](final_exam) dong
+    - [Jadwal UAS](final_exam)
+    - [UAS](final_exam)
+    - Jadwal [UAS](final_exam) kapan ya?
+    - Kalau [UAS](final_exam) kapan ya?
+    - [UAS](final_exam) dari tanggal berapa sampai tanggal berapa?
+
+- intent: pengurusan_surat
+  examples: |
+    - Saya ingin mengurus [Surat Keterangan](administration), saya harus minta ke mana ya?
+    - Bagaimana cara mengurus [surat izin penelitian](administration)?
+    - [Administrasi](administration)
+    - [Surat](administration)
+    - Mau ngurus [surat untuk mbkm](administration) nih. Gimana caranya ya?
+    - Di manakah saya bisa mengurus [administrasi](administration)?
+
+- intent: syarat_tugas_akhir
+  examples: |
+    - Saya mahasiswa semester akhir dan akan mengambil mata kuliah Tugas Akhir, apa saja [syarat](thesis_requirement) yang diperlukan?
+    - Apa saja [syarat skripsi](thesis_requirement)?
+    - [Syarat TA](thesis_requirement)
+    - Apa [syarat tugas akhir](thesis_requirement) yang harus dipenuhi?
+    - saya mahasiswa semester akhir. Untuk bisa mengikuti tugas akhir, apa saja [syaratnya](thesis_requirement) ya?
+
+- intent: pengajuan_judul_tugas_akhir
+  examples: |
+    - Bagaimana cara untuk [mengajukan judul](title_submission) Tugas Akhir?
+    - [Cara Mengajukan Judul](titile_submission) Skripsi
+    - Gimana caranya buat [usul judul](titile_submission) TA?
+    - [Pengajuan Judul](title_submission) Skripsi
+    - Lalu, bagaimana langkah yang harus saya lakukan untuk [mengajukan judul](title_submission) Tugas Akhir saya?
+
+- intent: proses_pengajuan_tugas_akhir
+  examples: |
+    - Jika saya sudah mengajukan judul, maka [proses](submission_process) selanjutnya bagaimana?
+    - [Pengajuan TA](submission_process) saya sudah sampai mana ya?
+    - Kapan saya dapat [dosen pembimbing](submission_process) untuk skripsi saya?
+    - Apakah judul Tugas Akhir saya telah [disetujui](submission_process)?
+    - Bagaimana cara mengecek [proses pengajuan](submission_process) TA saya?
+    - Gimana cara untuk tau judul saya [diterima](submission_process)?
+
+- intent: syarat_sidang
+  examples: |
+    - Untuk dapat bisa mengikuti sidang, apa saja [syarat sidangnya](presentation_requirement)?
+    - Apa saja [syarat sidang](presentation_requirement) Seminar Proposal?
+    - Apa saja [syarat sidang](presentation_requirement) Tugas Akhir?
+    - [Syarat Sidang](presentation_requirement) Skripsi
+    - Apa saja [syarat sidang](presentation_requirement) untuk TA?
+
+- intent: daftar_sidang
+  examples: |
+    - Gimana cara [daftar sidang](registration) TA?
+    - Bagaimana cara [mendaftar sidang](registration) Seminar Proposal?
+    - Cara [daftar sidang](registration) Skripsi
+    - Saya sudah memenuhi semua persyaratan. Lalu, bagaimana cara untuk [mendaftar sidang](registration) Tugas Akhir?
+    - [daftar sidang](registration) Sempro
+    - Cara untuk [daftar sidang](registration) gimana?
+
+- intent: jadwal_sidang
+  examples: |
+    - Saya sudah daftar sidang. Kapan saya mendapat [jadwal](schedule) sidang?
+    - Kapan [jadwal](schedule) sidang keluar?
+    - [Jadwal Sidang](schedule) TA
+    - Saya belum dapat [jadwal](schedule) Sidang Sempro
+    - Di mana saya bisa dapat info [jadwal](schedule) Sidang Skripsi?
+    - [Jadwal Sidang](schedule) Tugas Akhir saya kapan keluarnya ya?
+    - kalau sudah daftar, kapan [jadwal sidang](schedule) keluar ya? 
+
+- intent: validasi_sertifikat
+  examples: |
+    - Saya belum [validasi](validation) sertifikat untuk persyaratan sidang. Saya harus ke mana?
+    - Di mana saya bisa [validasi](validation) sertifikat?
+    - [validasi sertifikat](validation)
+    - Gimana cara untuk [validasi](validation) sertifikat?
+    - [Cara validasi](validation)
+    - saya belum validasi sertifikat. Gimana cara [validasi](validation) sertifikat?
+
+- intent: sertifikasi
+  examples: |
+    - Saya belum punya [sertifikasi](certification) BNSP. Bagaimana cara untuk mendapatkannya?
+    - Cara ikut [sertifikasi](certification) BNSP?
+    - Di mana saya bisa mengikuti [sertifikasi](certification)?
+    - [daftar sertifikasi](certification)
+    - Bagaimana cara mendapat [sertifikat](certification) BNSP?
+
+- intent: nonton_sidang
+  examples: |
+    - Saya belum pernah menonton sidang seminar proposal. Bagaimana cara [nonton](watch) sidang?
+    - Minta [absen nonton](watch) sidang sempro dong?
+    - Cara [nonton](watch) sidang seminar proposal
+    - [nonton](watch) sidang sempro di mana?
+    - Gimana cara [nonton](watch) sidangnya?
+
+- intent: grup_telegram
+  examples: |
+    - Minta [link](telegram_group) grup telegram skripsi dong
+    - Di mana saya bisa mendapatkan [link](telegram_group) untuk mahasiwa TA?
+    - Saya bisa mendapatkan [info](telegram_group) lebih lanjut mengenai Tugas Akhir di mana ya?
+    - [link telegram](telegram_group)
+    - Saya belum masuk ke [grup](telegram_group) Sempro.
+    - Ada [link](telegram_group) Seminar Proposal nggak?
+
+- intent: kampus_merdeka
+  examples: |
+    - Saya denger ada program [mbkm](mbkm_info). Apa sih itu mbkm?
+    - Apa itu program [Kampus Merdeka](mbkm_info)?
+    - Apa itu [MBKM](mbkm_info)?
+    - Minta penjelasan soal [kampus merdeka](mbkm_info) dong
+    - Saya mau minta info soal [mbkm](mbkm_info)
+    - [Kampus Merdeka](mbkm_info)
+    - [MBKM](mbkm_info)
+
+- intent: program_kampus_merdeka
+  examples: |
+    - Apa saja [jenis mbkm](mbkm_variant)?
+    - [Jenis MBKM](mbkm_variant)
+    - Apa saja [program yang ada](mbkm_variant) pada Kampus Merdeka?
+    - [Program-Program Kampus Merdeka](mbkm_variant)
+    - apa saja [program dari mbkm](mbkm_variant)
+
+- intent: syarat_kampus_merdeka
+  examples: |
+    - [Syarat MBKM](mbkm_requirements)
+    - Apa saja [syarat Kampus Merdeka](mbkm_requirements)?
+    - Untuk ikut [Kampus Merdeka, apa saja syaratnya](mbkm_requirements)?
+    - [Persyaratan MBKM](mbkm_requirements) apa saja ya?
+
+- intent: pendaftaran_kampus_merdeka
+  examples: |
+    - Gimana cara [daftar MBKM](mbkm_registration)?
+    - Gimana cara [daftar Kampus Merdeka](mbkm_registration)?
+    - [daftar Kampus Merdeka](mbkm_registration)
+    - Bagaimana cara untuk [mendaftar MBKM](mbkm_registration)?
+    - Cara [ikut Kampus Merdeka](mbkm_registration) gimana ya?
+    - Bagaimana cara [daftar Kampus Merdeka](mbkm_registration) ya?
+    
+
